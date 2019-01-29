@@ -71,7 +71,7 @@ class Chart extends Component {
 			}]
 		}
 		return (
-		<div>
+		<div style={{ margin: '30px' }}>
 			<CanvasJSChart options = {options}
 				// onRef={ref => this.chart = ref}
 			/>
